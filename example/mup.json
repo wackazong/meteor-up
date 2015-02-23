@@ -10,6 +10,12 @@
     }
   ],
 
+  // Script to run before setup. Settings of this file are available as environment variables
+  "preFlightScript": "preflight.sh",
+
+  // Script to run after setup. Settings of this file are available as environment variables
+  "postFlightScript": "postflight.sh",
+
   // Install MongoDB in the server, does not destroy local MongoDB on future setup
   "setupMongo": true,
 
