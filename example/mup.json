@@ -35,7 +35,7 @@
   
   // Hooks for shell scripts. Settings of this file are available as environment variables
   // uncomment for using them
-    "hooks": {
+  "hooks": {
   //    "before-setup": "./shell-script",
   //    "after-setup": "./shell-script",
   //    "before-deploy": "./shell-script",
